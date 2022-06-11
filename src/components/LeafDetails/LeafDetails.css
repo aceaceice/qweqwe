@@ -1,0 +1,43 @@
+.details {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(10, 30, 66, 0.4);
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details-table {
+  color: black;
+  width: 25%;
+  height: 40%;
+  border-radius: 12px;
+  background-color: white;
+  z-index: 100;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: grid;
+  grid-template-rows: 20% 40% 40%;
+  grid-template-columns: 50% 50%;
+}
+.details-close {
+  grid-column: 2;
+  justify-self: end;
+  align-self: start;
+}
+.details-table-user {
+  grid-row: 2;
+}
+.details-table-time {
+  grid-row: 3;
+}
+.details-table-user-value {
+  grid-row: 2;
+  grid-column: 2;
+}
+.details-table-time-value {
+  grid-row: 3;
+  grid-column: 2;
+}

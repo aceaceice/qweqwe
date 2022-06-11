@@ -1,0 +1,26 @@
+.user-list {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(10, 30, 66, 0.4);
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-list-table {
+  width: 20%;
+  color: wheat;
+  height: 40%;
+  border-radius: 12px;
+  background-color: rgb(88, 77, 77);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0, 35) 0px 5px 15px;
+}
+.user-list-close {
+  justify-self: flex-start;
+  align-self: flex-end;
+}

@@ -1,0 +1,19 @@
+.list-item {
+  display: flex;
+  width: 30vw;
+  height: 25vh;
+  color: wheat;
+  background-color: rgb(20, 93, 93);
+  border-radius: 2vh;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item-icon {
+  align-self: flex-end;
+}
+.list-item-name {
+  text-align: center;
+}

@@ -1,0 +1,36 @@
+.subtree {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  color: white;
+}
+.subtree-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  background-color: rgb(33, 135, 135);
+  border-radius: 20px;
+  padding-top: 20px;
+  border: 1px solid black;
+}
+.completed {
+  background-color: rgb(7, 132, 28);
+}
+.item-icon {
+  height: 3vh;
+  margin: 5px;
+}
+.item-name {
+  margin: 4px;
+}
+.delete {
+  margin-right: 6px;
+  align-self: flex-end;
+}
+.item-actions {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+}

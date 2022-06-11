@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  grid-template-columns: repeat(10, 10%);
+  background-color: rgba(21, 21, 66);
+  height: 7vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  all: unset;
+  font-size: 14px;
+  color: rgba(149, 159, 168, 0.571);
+  transition: all 0.2s;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+.btn:hover {
+  color: azure;
+}
